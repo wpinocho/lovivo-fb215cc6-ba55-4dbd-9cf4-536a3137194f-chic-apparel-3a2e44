@@ -69,6 +69,12 @@ export const EcommerceTemplate = ({
                 Products
               </ScrollLink>
               <Link 
+                to="/about" 
+                className="text-foreground/70 hover:text-foreground transition-colors"
+              >
+                About
+              </Link>
+              <Link 
                 to="/blog" 
                 className="text-foreground/70 hover:text-foreground transition-colors"
               >
@@ -135,6 +141,12 @@ export const EcommerceTemplate = ({
                 className="block text-background/70 hover:text-background transition-colors"
               >
                 Home
+              </Link>
+              <Link 
+                to="/about" 
+                className="block text-background/70 hover:text-background transition-colors"
+              >
+                About
               </Link>
               <Link 
                 to="/blog" 
