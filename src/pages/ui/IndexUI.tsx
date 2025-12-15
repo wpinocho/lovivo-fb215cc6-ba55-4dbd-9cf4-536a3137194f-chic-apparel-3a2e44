@@ -7,7 +7,7 @@ import { NewsletterSection } from '@/components/NewsletterSection';
 import { SizeGuideModal } from '@/components/SizeGuideModal';
 import { EcommerceTemplate } from '@/templates/EcommerceTemplate';
 import type { UseIndexLogicReturn } from '@/components/headless/HeadlessIndex';
-import heroImage from '@/assets/hero-new-drops.jpg';
+import heroImage from '@/assets/hero-red-dress.jpg';
 
 interface IndexUIProps {
   logic: UseIndexLogicReturn;
