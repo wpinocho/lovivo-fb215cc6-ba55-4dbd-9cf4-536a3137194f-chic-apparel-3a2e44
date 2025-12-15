@@ -7,7 +7,7 @@ import { NewsletterSection } from '@/components/NewsletterSection';
 import { SizeGuideModal } from '@/components/SizeGuideModal';
 import { EcommerceTemplate } from '@/templates/EcommerceTemplate';
 import type { UseIndexLogicReturn } from '@/components/headless/HeadlessIndex';
-import heroImage from '@/assets/hero-red-dress.jpg';
+import heroImage from '@/assets/hero-new-drops.jpg';
 
 interface IndexUIProps {
   logic: UseIndexLogicReturn;
@@ -55,7 +55,9 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
             <div className="editorial-subheading">
               New Season
             </div>
-            <h1 className="font-serif text-5xl md:text-7xl text-primary-foreground leading-tight">New Drops!!</h1>
+            <h1 className="font-serif text-5xl md:text-7xl text-primary-foreground leading-tight">
+              New Drops
+            </h1>
             <p className="text-lg text-primary-foreground/90 max-w-md">
               Discover the latest arrivals from our curated collection. 
               Timeless pieces designed for the modern woman.
